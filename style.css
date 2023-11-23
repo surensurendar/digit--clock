@@ -1,0 +1,46 @@
+body{
+    margin:0;
+    padding:0;
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,98,121,1) 35%, rgba(0,212,255,1) 100%); */
+    background: rgb(34,193,195);
+    background: -moz-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endColorstr="#fdbb2d",GradientType=1);
+
+
+
+}
+.name{  
+    color:rgb(238, 236, 240);
+    font-size: 80px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    display:flex;
+    width:100vw;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+}
+
+#wrapper{
+    border: 3px solid white;
+    padding:1rem;
+}
+
+.container span{
+    margin-left:10px;
+}
+
+#ampm{
+    font-size:3rem;
+    align-items: end;
+}
